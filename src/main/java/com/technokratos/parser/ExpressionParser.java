@@ -1,4 +1,4 @@
-package com.technokratos.service;
+package com.technokratos.parser;
 
 public interface ExpressionParser {
 

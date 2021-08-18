@@ -18,4 +18,5 @@ public class SearchCriteria {
 
     private JoinType joinType;
     private List<Filter> filters;
+    private List<SearchCriteria> searchCriteriaList;
 }

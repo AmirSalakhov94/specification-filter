@@ -21,10 +21,10 @@ import static com.fasterxml.jackson.annotation.JsonTypeInfo.Id.NAME;
 @JsonSubTypes({
         @JsonSubTypes.Type(
                 value = BetweenFilter.class,
-                name = "BETWEEN"),
+                name = "BT"),
         @JsonSubTypes.Type(
                 value = EqualFilter.class,
-                name = "EQUAL"),
+                name = "EQ"),
         @JsonSubTypes.Type(
                 value = LikeFilter.class,
                 name = "LIKE")
