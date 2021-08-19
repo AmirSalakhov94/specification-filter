@@ -4,7 +4,9 @@ import com.technokratos.dto.enums.OperatorType;
 import com.technokratos.dto.filter.BetweenFilter;
 import com.technokratos.dto.filter.Filter;
 import com.technokratos.parser.OperatorParser;
+import org.springframework.stereotype.Component;
 
+@Component
 public class BetweenParser implements OperatorParser {
 
     @Override
